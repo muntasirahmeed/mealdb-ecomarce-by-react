@@ -1,0 +1,12 @@
+.nav {
+  background-color: #1c2b35;
+  padding: 15px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.link a {
+  text-decoration: none;
+  color: white;
+  margin-left: 20px;
+}
