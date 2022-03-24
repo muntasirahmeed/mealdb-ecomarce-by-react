@@ -1,0 +1,28 @@
+.meal{
+    background-color: rgb(224, 224, 224);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 320px;
+    height: 450px;
+    border-radius: 10px;
+    font-family: sans-serif;
+}
+.mea h2{
+   font-family: sans-serif;
+}
+.meal img{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    margin: 10px;
+}
+.add-btn{
+    background-color: rgb(7, 165, 91);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+    margin: 10px;
+}
