@@ -1,10 +1,22 @@
-.food-container{
-    display: grid;
-    grid-template-columns: 4fr 1fr;
+.food-container {
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  position: relative;
 }
-.meal-container{
-    margin: 20px 50px;
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    gap: 20px;
+.meal-container {
+  margin: 20px 50px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.cart-container {
+  background-color: rgba(238, 195, 5, 0.856);
+  padding: 0 20px;
+}
+.info {
+  position: sticky;
+  top: 0;
+}
+.info h2{
+    text-align: center;
 }

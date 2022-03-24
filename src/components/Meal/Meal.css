@@ -25,4 +25,12 @@
     color: white;
     font-size: 15px;
     margin: 10px;
+    cursor: pointer;
+}
+.add-btn:hover{
+    background-color: rgb(1, 143, 72);
+    transition: 0.2s;
+}
+.icon{
+    margin-left: 8px;
 }
